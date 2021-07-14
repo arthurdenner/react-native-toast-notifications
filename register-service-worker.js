@@ -1,0 +1,1 @@
+"serviceWorker"in navigator&&window.addEventListener("load",(function(){navigator.serviceWorker.register("/react-native-toast-notifications/expo-service-worker.js",{scope:"/react-native-toast-notifications/"}).then((function(e){})).catch((function(e){console.info("Failed to register service-worker",e)}))}));
